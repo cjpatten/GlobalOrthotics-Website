@@ -1,0 +1,1966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Orthotics Inc. — Custom Orthotics, Braces &amp; Hosiery | Canadian Lab</title>
+  <meta name="description" content="Global Orthotics Inc. — Canada's trusted custom orthotic lab. 25+ years of manufacturing excellence, now expanded with precision 3D printing. Custom orthotics, braces, and medical hosiery for practitioners across Canada." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://cjpatten.github.io/GlobalOrthotics-Website/" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+
+  <!-- Open Graph (Facebook, LinkedIn, iMessage) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Global Orthotics Inc. — Your Prescription, Our Precision" />
+  <meta property="og:description" content="Canada's trusted custom orthotic lab. 25+ years of manufacturing excellence, now expanded with precision 3D printing." />
+  <meta property="og:image" content="https://cjpatten.github.io/GlobalOrthotics-Website/images/og-image.png" />
+  <meta property="og:url" content="https://cjpatten.github.io/GlobalOrthotics-Website/" />
+  <meta property="og:site_name" content="Global Orthotics Inc." />
+  <meta property="og:locale" content="en_CA" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Global Orthotics Inc. — Your Prescription, Our Precision" />
+  <meta name="twitter:description" content="Canada's trusted custom orthotic lab. 25+ years of manufacturing excellence, now expanded with precision 3D printing." />
+  <meta name="twitter:image" content="https://cjpatten.github.io/GlobalOrthotics-Website/images/og-image.png" />
+
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Global Orthotics Inc.",
+    "description": "Canada's trusted custom orthotic lab with 25+ years of manufacturing excellence, now expanded with precision 3D printing.",
+    "url": "https://cjpatten.github.io/GlobalOrthotics-Website/",
+    "logo": "https://cjpatten.github.io/GlobalOrthotics-Website/global-logo-big.png",
+    "image": "https://cjpatten.github.io/GlobalOrthotics-Website/images/og-image.png",
+    "telephone": "+1-905-856-4511",
+    "email": "info@globalorthoticsinc.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "141 Zenway Blvd Unit 5",
+      "addressLocality": "Woodbridge",
+      "addressRegion": "ON",
+      "postalCode": "L4H 3H9",
+      "addressCountry": "CA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8002,
+      "longitude": -79.5580
+    },
+    "sameAs": [
+      "https://www.facebook.com/globalorthotics.inc"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    },
+    "priceRange": "$$"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ============================================================
+       GLOBAL ORTHOTICS INC.
+       Theme:  Modern Medical / Clinical — White × Blue × Amber
+       Type:   Fraunces (display) · Barlow (body) · Barlow Condensed (labels)
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #FFFFFF;
+      --bg-2:      #F7F8FA;
+      --surface:   #FFFFFF;
+      --border:    #E5E7EB;
+      --border-2:  #D1D5DB;
+      --amber:     #E8923A;
+      --amber-lt:  #F0AE68;
+      --amber-dk:  #B86D22;
+      --amber-10:  rgba(232,146,58,0.08);
+      --amber-22:  rgba(232,146,58,0.15);
+      --blue:      #2563EB;
+      --blue-lt:   #3B82F6;
+      --blue-dk:   #1D4ED8;
+      --blue-10:   rgba(37,99,235,0.08);
+      --blue-22:   rgba(37,99,235,0.12);
+      --text:      #111827;
+      --text-body: #4B5563;
+      --text-muted:#9CA3AF;
+      --text-60:   #4B5563;
+      --text-35:   #9CA3AF;
+      --text-12:   rgba(17,24,39,0.06);
+      --card-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+      --card-shadow-lg: 0 4px 12px rgba(0,0,0,0.06), 0 20px 48px rgba(0,0,0,0.08);
+      --font-d:    'Fraunces', Georgia, serif;
+      --font-b:    'Barlow', system-ui, sans-serif;
+      --font-c:    'Barlow Condensed', system-ui, sans-serif;
+      --nav-h:     80px;
+      --r:          8px;
+      --r-lg:      16px;
+      --ease-out:   cubic-bezier(0.22, 1, 0.36, 1);
+      --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+      --footer-bg: #111827;
+    }
+
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-b);
+      font-weight: 400;
+      line-height: 1.6;
+      overflow-x: hidden;
+      position: relative;
+    }
+    img    { display: block; width: 100%; height: 100%; object-fit: cover; }
+    a      { color: inherit; text-decoration: none; }
+    button { background: none; border: none; cursor: pointer; font: inherit; color: inherit; }
+    ul     { list-style: none; }
+
+    .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+
+    /* ── Typography helpers ── */
+    .section-label {
+      display: inline-flex; align-items: center; gap: 0.75rem;
+      font-family: var(--font-c); font-size: 0.875rem;
+      font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--blue); margin-bottom: 1.25rem;
+    }
+    .section-label::before {
+      content: ''; width: 22px; height: 2px;
+      background: var(--blue); flex-shrink: 0; border-radius: 2px;
+    }
+    .section-title {
+      font-family: var(--font-d); font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3.25rem);
+      line-height: 1.1; letter-spacing: -0.02em;
+      color: var(--text); margin-bottom: 1.25rem;
+    }
+    .section-title em { font-style: italic; color: var(--amber); }
+    .section-sub { font-size: 1.0625rem; color: var(--text-body); line-height: 1.72; max-width: 52ch; }
+    .section-header { text-align: center; margin-bottom: 3.5rem; }
+    .section-header .section-label { margin: 0 auto 1.25rem; }
+    .section-header .section-sub   { margin: 0 auto; }
+
+    /* ── Buttons ── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-family: var(--font-b); font-size: 0.9375rem; font-weight: 600;
+      letter-spacing: 0.01em; padding: 0.8rem 1.85rem; border-radius: 100px;
+      border: 1.5px solid transparent;
+      transition: all 0.24s var(--ease-out); cursor: pointer; white-space: nowrap;
+    }
+    .btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+    .btn--primary { background: var(--blue); color: #fff; border-color: var(--blue); }
+    .btn--primary:hover { background: var(--blue-dk); border-color: var(--blue-dk); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(37,99,235,0.3); }
+    .btn--ghost   { background: transparent; color: var(--text); border-color: var(--border-2); }
+    .btn--ghost:hover { border-color: var(--blue); color: var(--blue); transform: translateY(-1px); }
+    .btn--white   { background: #fff; color: var(--blue); border-color: #fff; }
+    .btn--white:hover { background: rgba(255,255,255,0.9); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(255,255,255,0.3); }
+    .btn--full    { width: 100%; justify-content: center; }
+
+    /* ── Scroll animations — script.js adds .visible ── */
+    [data-animate] {
+      opacity: 0; transform: translateY(22px);
+      transition: opacity 0.72s var(--ease-out), transform 0.72s var(--ease-out);
+    }
+    [data-animate].visible { opacity: 1; transform: translateY(0); }
+    [data-animate]:nth-child(2) { transition-delay: 0.08s; }
+    [data-animate]:nth-child(3) { transition-delay: 0.16s; }
+    [data-animate]:nth-child(4) { transition-delay: 0.24s; }
+    [data-animate]:nth-child(5) { transition-delay: 0.32s; }
+    [data-animate]:nth-child(6) { transition-delay: 0.40s; }
+
+    /* ============================================================
+       NAVIGATION — script.js adds .scrolled
+    ============================================================ */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      height: var(--nav-h);
+      border-bottom: 1px solid transparent;
+      transition: background 0.4s var(--ease-out), border-color 0.4s, box-shadow 0.4s;
+    }
+    .nav.scrolled {
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border-bottom-color: var(--border);
+      box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+    }
+    .nav__inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 2rem;
+      height: 100%; display: flex; align-items: center; gap: 1.5rem;
+    }
+    .nav__logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+    .nav__logo-img {
+      height: 48px; width: auto; flex-shrink: 0;
+      border-radius: 0; transition: opacity 0.25s, filter 0.4s var(--ease-out);
+      filter: brightness(0) invert(1);
+    }
+    .nav__logo-img:hover { opacity: 0.88; }
+    .nav.scrolled .nav__logo-img { filter: none; }
+    .nav__logo-wordmark { display: flex; flex-direction: column; gap: 1px; }
+    .nav__logo-name {
+      font-family: var(--font-b); font-size: 0.9375rem; font-weight: 600;
+      color: var(--text); line-height: 1;
+    }
+    .nav__logo-tag {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 500;
+      letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-muted);
+    }
+    .nav__links { display: flex; align-items: center; gap: 0.25rem; margin-left: auto; }
+    .nav__links li a {
+      font-family: var(--font-b); font-size: 0.9375rem; font-weight: 500;
+      padding: 0.45rem 0.875rem; border-radius: 100px; color: rgba(255,255,255,0.9);
+      transition: color 0.22s, background 0.22s;
+    }
+    .nav__links li a:hover { color: #fff; background: rgba(255,255,255,0.1); }
+    .nav.scrolled .nav__links li a { color: var(--text-body); }
+    .nav.scrolled .nav__links li a:hover { color: var(--text); background: var(--text-12); }
+    .nav__cta {
+      background: var(--blue) !important; color: #fff !important;
+      font-weight: 600 !important; padding: 0.45rem 1.25rem !important;
+      border-radius: 100px !important; transition: background 0.22s, box-shadow 0.22s !important;
+    }
+    .nav__cta:hover { background: var(--blue-dk) !important; box-shadow: 0 4px 12px rgba(37,99,235,0.25) !important; }
+    .nav__toggle {
+      display: none; align-items: center; justify-content: center;
+      margin-left: auto; color: var(--text);
+    }
+    .nav__hamburger { width: 28px; height: 28px; }
+    .nav__ham-top {
+      transition: stroke-dasharray 0.4s var(--ease-out), stroke-dashoffset 0.4s;
+      stroke-dasharray: 40 160;
+    }
+    .nav__ham-top.open { stroke-dashoffset: -64px; }
+    .nav__hamburger.open path:not(.nav__ham-top) { opacity: 0; transition: opacity 0.3s; }
+    @media (max-width: 768px) {
+      .nav__toggle { display: flex; }
+      .nav__links {
+        position: fixed; top: var(--nav-h); left: 0; right: 0;
+        background: rgba(255,255,255,0.98); backdrop-filter: blur(24px);
+        flex-direction: column; padding: 1.5rem 2rem 2.5rem; gap: 0.25rem;
+        transform: translateY(-110%); opacity: 0; pointer-events: none;
+        transition: transform 0.38s var(--ease-out), opacity 0.3s; z-index: 999;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+      }
+      .nav__links.open { transform: translateY(0); opacity: 1; pointer-events: auto; }
+      .nav__links li a { color: var(--text-body) !important; padding: 0.7rem 0 !important; display: block; font-size: 1rem !important; }
+      .nav__links li a:hover { background: transparent !important; color: var(--text) !important; }
+      .nav__cta { display: block; text-align: center; }
+    }
+
+    /* ============================================================
+       HERO — Background Video
+    ============================================================ */
+    .hero {
+      position: relative; min-height: 100dvh;
+      display: flex; flex-direction: column;
+      justify-content: center; overflow: hidden;
+      background: #0F172A;
+      padding-top: var(--nav-h);
+    }
+    .hero__video {
+      position: absolute; inset: 0; z-index: 0;
+    }
+    .hero__video video {
+      width: 100%; height: 100%; object-fit: cover;
+    }
+    .hero__video::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(180deg,
+        rgba(15,23,42,0.65) 0%,
+        rgba(15,23,42,0.5) 50%,
+        rgba(15,23,42,0.72) 100%
+      );
+    }
+    /* Hide old decorative elements in hero */
+    .hero__grid, .hero__glow, .hero__glow-2 { display: none; }
+    /* Hero layout — two-column with visual */
+    .hero__layout {
+      position: relative; z-index: 2;
+      width: 100%; max-width: 1200px; margin: 0 auto;
+      padding: 3rem 2rem 7rem;
+      display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 3rem;
+      align-items: center;
+    }
+    .hero__content {
+      padding-left: clamp(0rem, 2vw, 2rem);
+    }
+    .hero__visual {
+      position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    .hero__visual-img {
+      width: 100%; max-width: 100%; border-radius: var(--r-lg);
+      border: 2px solid rgba(255,255,255,0.15); overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      transform: perspective(900px) rotateY(-2deg);
+      transition: transform 0.5s var(--ease-out), box-shadow 0.5s;
+      aspect-ratio: 4/3;
+    }
+    .hero__visual-img:hover {
+      transform: perspective(900px) rotateY(0deg);
+      box-shadow: 0 28px 80px rgba(0,0,0,0.4);
+    }
+    .hero__visual-img img { width: 100%; height: 100%; object-fit: cover; filter: none; transition: opacity 0.18s var(--ease-out); }
+    .hero__visual-float {
+      position: absolute; bottom: -1.5rem; left: -2rem;
+      background: rgba(15,23,42,0.75); backdrop-filter: blur(18px);
+      border: 1px solid rgba(255,255,255,0.12); border-radius: var(--r-lg);
+      padding: 1.125rem 1.5rem; display: flex; align-items: center; gap: 1rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      animation: fade-up 0.9s var(--ease-out) 0.9s both;
+    }
+    .hero__visual-float-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: rgba(37,99,235,0.15); border: 1px solid rgba(37,99,235,0.25);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .hero__visual-float-icon svg { width: 20px; height: 20px; stroke: var(--blue-lt); }
+    .hero__visual-float-text { display: flex; flex-direction: column; gap: 2px; }
+    .hero__visual-float-num {
+      font-family: var(--font-d); font-size: 1.625rem; font-weight: 300; color: #fff; line-height: 1;
+    }
+    .hero__visual-float-label {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.5);
+    }
+    .hero__visual-badge {
+      position: absolute; top: -1rem; right: -0.75rem;
+      background: rgba(15,23,42,0.75); backdrop-filter: blur(18px);
+      border: 1px solid rgba(255,255,255,0.12); border-radius: 100px;
+      padding: 0.6rem 1.2rem; display: flex; align-items: center; gap: 0.55rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      animation: fade-up 0.9s var(--ease-out) 1.05s both;
+    }
+    .hero__visual-badge svg { width: 16px; height: 16px; stroke: #4ade80; flex-shrink: 0; }
+    .hero__visual-badge span {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; color: #4ade80; white-space: nowrap;
+    }
+    @media (max-width: 900px) {
+      .hero__layout { grid-template-columns: 1fr; gap: 2rem; }
+      .hero__visual { order: -1; max-width: 400px; margin: 0 auto; }
+    }
+    /* Announcement badge */
+    .hero__announce {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.375rem 1rem 0.375rem 0.75rem;
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 100px;
+      font-family: var(--font-c); font-size: 0.8125rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: #fff;
+      margin-bottom: 1.75rem; width: fit-content;
+      transition: all 0.25s var(--ease-out);
+    }
+    .hero__announce:hover { color: #fff; border-color: rgba(255,255,255,0.35); background: rgba(255,255,255,0.1); }
+    .hero__announce-pulse {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--blue-lt); flex-shrink: 0;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 1; transform: scale(1); }
+      50%      { opacity: 0.45; transform: scale(0.7); }
+    }
+    .hero__announce-sep   { width: 1px; height: 14px; background: rgba(255,255,255,0.15); flex-shrink: 0; }
+    .hero__announce-arrow { width: 14px; height: 14px; opacity: 0.6; flex-shrink: 0; color: #fff; }
+    /* Headline */
+    .hero__headline {
+      font-family: var(--font-d); font-weight: 300;
+      font-size: clamp(3rem, 7vw, 5.5rem);
+      line-height: 0.95; letter-spacing: -0.035em;
+      color: #fff; margin-bottom: 1.875rem;
+    }
+    .hero__accent { display: block; font-style: italic; color: var(--amber); }
+    .hero__sub {
+      font-size: clamp(1rem, 1.4vw, 1.125rem);
+      color: #fff; line-height: 1.72;
+      max-width: 46ch; margin-bottom: 2.5rem;
+    }
+    .hero__actions { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 3.5rem; }
+    .hero__actions .btn--ghost { color: #fff; border-color: rgba(255,255,255,0.25); }
+    .hero__actions .btn--ghost:hover { border-color: #fff; color: #fff; }
+    /* Product category pills */
+    .hero__pills {
+      display: flex; align-items: center; gap: 0.625rem; flex-wrap: wrap;
+    }
+    .hero__pills--center { justify-content: center; margin-top: 1.25rem; }
+    .hero__pill {
+      display: inline-flex; align-items: center;
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      color: #fff; padding: 0.5rem 1.25rem;
+      border: 1px solid rgba(255,255,255,0.15); border-radius: 100px;
+      background: rgba(255,255,255,0.05); backdrop-filter: blur(8px);
+      transition: all 0.25s var(--ease-out); cursor: pointer;
+      text-decoration: none;
+    }
+    .hero__pill:hover {
+      color: #fff; border-color: rgba(255,255,255,0.35);
+      background: rgba(255,255,255,0.1);
+      transform: translateY(-1px);
+    }
+    /* Scroll indicator */
+    .hero__scroll {
+      position: absolute; bottom: 5.5rem; left: 2rem;
+      display: flex; align-items: center; gap: 0.75rem; z-index: 2;
+    }
+    .hero__scroll span {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 600;
+      letter-spacing: 0.24em; text-transform: uppercase; color: rgba(255,255,255,0.3);
+    }
+    .hero__scroll-line {
+      width: 36px; height: 1px;
+      background: linear-gradient(to right, rgba(255,255,255,0.5), transparent);
+      animation: scroll-pulse 2.6s var(--ease-inout) infinite;
+    }
+    @keyframes scroll-pulse {
+      0%,100% { opacity: 0.3; transform: scaleX(0.5); transform-origin: left; }
+      50%      { opacity: 1;   transform: scaleX(1);   transform-origin: left; }
+    }
+    /* Stat bar */
+    .hero__stats {
+      position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      background: rgba(15,23,42,0.6); backdrop-filter: blur(16px);
+    }
+    .hero__stat {
+      padding: 1.25rem clamp(1rem, 2.5%, 1.75rem);
+      border-right: 1px solid rgba(255,255,255,0.1);
+    }
+    .hero__stat:last-child { border-right: none; }
+    .hero__stat-num {
+      font-family: var(--font-d); font-size: 1.75rem; font-weight: 300;
+      color: #fff; line-height: 1; margin-bottom: 0.25rem;
+    }
+    .hero__stat-num em { font-style: normal; color: var(--amber); }
+    .hero__stat-label {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 600;
+      letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.45);
+    }
+    /* Entry animations */
+    .anim-badge   { animation: fade-up 0.8s var(--ease-out) 0.1s  both; }
+    .anim-h1      { animation: fade-up 0.9s var(--ease-out) 0.25s both; }
+    .anim-sub     { animation: fade-up 0.8s var(--ease-out) 0.4s  both; }
+    .anim-actions { animation: fade-up 0.8s var(--ease-out) 0.55s both; }
+    .anim-preview { animation: fade-up 0.8s var(--ease-out) 0.7s  both; }
+    .anim-stats   { animation: fade-up 0.7s var(--ease-out) 0.85s both; }
+    @keyframes fade-up {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 900px) {
+      .hero__headline { font-size: clamp(2.75rem, 12vw, 5rem); }
+    }
+    @media (max-width: 440px) {
+      .hero__stats { grid-template-columns: 1fr 1fr; }
+      .hero__stat:nth-child(3) { display: none; }
+    }
+
+    /* ============================================================
+       LOGO CLOUD
+    ============================================================ */
+    .logo-cloud {
+      background: var(--bg-2); padding: 1.5rem 0;
+      overflow: hidden; border-top: 1px solid var(--border);
+    }
+    .logo-cloud__header {
+      text-align: center;
+      font-family: var(--font-b); font-size: 0.9375rem; font-weight: 400;
+      color: var(--text-muted); padding-bottom: 1rem;
+    }
+    .logo-cloud__header span { color: var(--text-body); font-weight: 500; }
+    .logo-cloud__wrapper {
+      overflow: hidden;
+      mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+    }
+    .logo-cloud__track { display: flex; align-items: center; width: max-content; animation: ticker 40s linear infinite; }
+    @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .logo-cloud__item {
+      font-family: var(--font-b); font-size: 0.9375rem; font-weight: 500;
+      color: var(--text-muted); white-space: nowrap; padding: 0 1.75rem;
+    }
+    .logo-cloud__sep { color: var(--blue); opacity: 0.4; flex-shrink: 0; }
+
+    /* ============================================================
+       VALUES — Card grid format
+    ============================================================ */
+    .values { padding: 6rem 0; background: var(--bg-2); }
+
+    .values__header { margin-bottom: 3rem; }
+
+    .values__list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+    .values__item {
+      display: grid; grid-template-columns: 160px 1fr; gap: 0;
+      background: var(--surface);
+      border: 1px solid var(--border); border-radius: var(--r-lg);
+      position: relative; cursor: default; overflow: hidden;
+      box-shadow: var(--card-shadow);
+      transition: transform 0.3s var(--ease-out), box-shadow 0.3s;
+    }
+    .values__item:last-child { border-bottom: none; }
+    .values__item:hover { transform: translateY(-3px); box-shadow: var(--card-shadow-lg); }
+    .values__item:hover .values__item-title { color: var(--blue); }
+    .values__item::after { display: none; }
+
+    .values__item-img {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+      background: var(--bg-2);
+    }
+    .values__item-content {
+      display: flex; flex-direction: column; gap: 0.75rem; padding: 1.5rem;
+    }
+    .values__item-num {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.1em; color: var(--blue); display: none;
+    }
+    .values__item-icon {
+      width: 48px; height: 48px; display: flex; align-items: center;
+      justify-content: center; background: var(--blue-10);
+      border-radius: 12px; border: 1px solid var(--blue-22); flex-shrink: 0;
+    }
+    .values__item-icon svg { width: 22px; height: 22px; stroke: var(--blue); }
+    .values__item-title {
+      font-family: var(--font-d); font-size: 1.25rem;
+      font-weight: 300; font-style: italic;
+      color: var(--text); margin-bottom: 0; line-height: 1.2;
+      transition: color 0.3s;
+    }
+    .values__item-desc { font-size: 0.9375rem; color: var(--text-body); line-height: 1.68; }
+    @media (max-width: 768px) {
+      .values__list { grid-template-columns: 1fr; }
+      .values__item { grid-template-columns: 120px 1fr; }
+    }
+    @media (max-width: 480px) {
+      .values__item { grid-template-columns: 1fr; }
+      .values__item-img { height: 160px; }
+    }
+
+    /* ============================================================
+       ABOUT
+    ============================================================ */
+    .about { padding: 6rem 0; background: var(--bg); }
+    .about__layout { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .about__visual { position: relative; }
+    .about__img-wrap {
+      position: relative; border-radius: var(--r-lg); overflow: hidden;
+      aspect-ratio: 16/9; border: 1px solid var(--border);
+      box-shadow: var(--card-shadow-lg);
+    }
+    .about__img-wrap video {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+      border-radius: var(--r-lg);
+    }
+    .about__card {
+      position: absolute; border-radius: var(--r-lg);
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.96); backdrop-filter: blur(18px);
+      box-shadow: var(--card-shadow-lg);
+    }
+    .about__card--main { bottom: -12rem; right: -4rem; padding: 1.25rem 1.5rem; max-width: 278px; }
+    .about__card-icon {
+      width: 30px; height: 30px; display: flex; align-items: center;
+      justify-content: center; background: var(--blue-10);
+      border-radius: 7px; margin-bottom: 0.6rem; border: 1px solid var(--blue-22);
+    }
+    .about__card-icon svg { width: 14px; height: 14px; stroke: var(--blue); }
+    .about__quote {
+      font-family: var(--font-d); font-size: 0.9375rem; font-style: italic; font-weight: 300;
+      color: var(--text); line-height: 1.5; margin-bottom: 0.4rem;
+    }
+    .about__quote-attr {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.1em; color: var(--amber);
+    }
+    .about__card--stat { top: -3.5rem; left: -3.5rem; padding: 1.25rem 1.75rem; display: flex; flex-direction: column; gap: 0.2rem; }
+    .about__card-num {
+      font-family: var(--font-d); font-size: 2.25rem; font-weight: 300;
+      color: var(--blue); line-height: 1;
+    }
+    .about__card-desc {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-body); max-width: 12ch; line-height: 1.4;
+    }
+    .about__card--badge { top: -2rem; right: -2.5rem; padding: 0.65rem 0.9rem; display: flex; align-items: center; gap: 0.45rem; }
+    .about__card--badge svg { width: 14px; height: 14px; stroke: var(--blue); flex-shrink: 0; }
+    .about__card--badge span {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; color: var(--text); white-space: nowrap;
+    }
+    .about__text p { font-size: 1rem; color: var(--text-body); line-height: 1.72; margin-bottom: 1rem; }
+    .about__list { display: flex; flex-direction: column; gap: 0.625rem; margin-bottom: 2rem; }
+    .about__list li { display: flex; align-items: flex-start; gap: 0.625rem; font-size: 0.9375rem; color: var(--text-body); }
+    .about__list li svg { width: 16px; height: 16px; flex-shrink: 0; margin-top: 3px; stroke: var(--blue); }
+    @media (max-width: 900px) {
+      .about__layout { grid-template-columns: 1fr; gap: 2rem; }
+      .about__visual { display: flex; flex-direction: column; gap: 1rem; }
+      .about__card { position: relative; top: auto; bottom: auto; left: auto; right: auto; }
+      .about__card--main { max-width: 100%; }
+      .about__card--stat { flex-direction: row; align-items: center; gap: 0.75rem; width: fit-content; }
+      .about__card--badge { width: fit-content; }
+    }
+
+    /* ============================================================
+       PRODUCTS
+    ============================================================ */
+    .products { padding: 6rem 0; background: var(--bg-2); }
+    .products__tabs {
+      display: flex; gap: 0.25rem; margin-bottom: 3rem;
+      justify-content: center; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 100px;
+      padding: 0.3rem; width: fit-content; margin-left: auto; margin-right: auto;
+      box-shadow: var(--card-shadow);
+    }
+    .products__tab {
+      font-family: var(--font-b); font-size: 0.9375rem; font-weight: 500;
+      padding: 0.5rem 1.75rem; border-radius: 100px; color: var(--text-body);
+      transition: all 0.22s var(--ease-out); cursor: pointer;
+    }
+    .products__tab:hover { background: var(--bg-2); color: var(--text); }
+    .products__tab--active {
+      background: var(--blue); color: #fff; font-weight: 600;
+    }
+    .products__tab--active:hover { background: var(--blue-dk); color: #fff; }
+    .products__panel { display: none; }
+    .products__panel--active { display: block; }
+    .products__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .product-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--r-lg); overflow: hidden;
+      transition: transform 0.3s var(--ease-out), border-color 0.3s, box-shadow 0.3s;
+      box-shadow: var(--card-shadow);
+    }
+    .product-card:hover { transform: translateY(-4px); border-color: var(--border-2); box-shadow: var(--card-shadow-lg); }
+    .product-card__photo { position: relative; aspect-ratio: 4/3; overflow: hidden; background: var(--bg-2); }
+    .product-card__placeholder {
+      width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, var(--blue-10), rgba(232,146,58,0.06));
+    }
+    .product-card__placeholder svg { width: 48px; height: 48px; stroke: var(--text-muted); opacity: 0.35; }
+    .product-card__photo img { transition: transform 0.5s var(--ease-out); filter: none; }
+    .product-card:hover .product-card__photo img { transform: scale(1.05); }
+    .product-card__badge { position: absolute; top: 0.75rem; right: 0.75rem; width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+    .product-card__badge svg { width: 14px; height: 14px; }
+    .product-card__badge--blue   { background: rgba(59,130,246,0.18); }  .product-card__badge--blue   svg { stroke: #3B82F6; }
+    .product-card__badge--teal   { background: rgba(20,184,166,0.18); }  .product-card__badge--teal   svg { stroke: #14B8A6; }
+    .product-card__badge--purple { background: rgba(167,139,250,0.18); } .product-card__badge--purple svg { stroke: #8B5CF6; }
+    .product-card__badge--orange { background: rgba(251,146,60,0.18); }  .product-card__badge--orange svg { stroke: #F97316; }
+    .product-card__badge--green  { background: rgba(74,222,128,0.18); }  .product-card__badge--green  svg { stroke: #22C55E; }
+    .product-card__badge--rose   { background: rgba(251,113,133,0.18); } .product-card__badge--rose   svg { stroke: #F43F5E; }
+    .product-card__badge--amber  { background: rgba(232,146,58,0.18); }  .product-card__badge--amber  svg { stroke: #E8923A; }
+    .product-card__badge--sky    { background: rgba(56,189,248,0.18); }   .product-card__badge--sky    svg { stroke: #0EA5E9; }
+    .product-card__body { padding: 1.5rem 1.5rem 1.75rem; }
+    .product-card__body h3 {
+      font-family: var(--font-d); font-size: 1.25rem; font-weight: 300; font-style: italic;
+      color: var(--text); margin-bottom: 0.5rem;
+    }
+    .product-card__body p { font-size: 0.9375rem; color: var(--text-body); line-height: 1.6; margin-bottom: 1rem; }
+    .product-card__features { display: flex; flex-wrap: wrap; gap: 0.375rem; }
+    .product-card__features li {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-body);
+      background: var(--bg-2); padding: 0.25rem 0.65rem; border-radius: 100px;
+    }
+    /* Feature panels */
+    .products__feature { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .products__feature-text h3 { font-family: var(--font-d); font-size: 2rem; font-weight: 300; font-style: italic; color: var(--text); margin-bottom: 0.875rem; }
+    .products__feature-text p { font-size: 1rem; color: var(--text-body); line-height: 1.7; margin-bottom: 1.5rem; }
+    .product-img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.875rem; }
+    .product-img-item { border-radius: var(--r-lg); overflow: hidden; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--card-shadow); }
+    .product-img-item img { height: 150px; object-fit: cover; filter: none; transition: filter 0.3s; }
+    .product-img-item:hover img { filter: brightness(1.05); }
+    .product-img-item span {
+      display: block; font-family: var(--font-c); font-size: 0.875rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); padding: 0.55rem 0.85rem;
+    }
+    @media (max-width: 900px) { .products__grid { grid-template-columns: 1fr 1fr; } .products__feature { grid-template-columns: 1fr; gap: 2rem; } }
+    @media (max-width: 600px) { .products__grid { grid-template-columns: 1fr; } }
+
+    /* ── Prescriptive Options ── */
+    .rx-options {
+      margin-top: 4rem; padding-top: 3rem;
+      border-top: 1px solid var(--border);
+    }
+    .rx-options__header { text-align: center; margin-bottom: 2.5rem; }
+    .rx-options__grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;
+    }
+    .rx-options__col {
+      background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: var(--r-lg); padding: 1.75rem;
+    }
+    .rx-options__heading {
+      display: flex; align-items: center; gap: 0.65rem;
+      font-family: var(--font-c); font-size: 0.9375rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      margin-bottom: 1.25rem; padding-bottom: 1rem;
+      border-bottom: 2px solid var(--border);
+    }
+    .rx-options__heading-icon {
+      width: 36px; height: 36px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .rx-options__heading-icon svg { width: 18px; height: 18px; }
+    .rx-options__col--blue .rx-options__heading-icon   { background: rgba(59,130,246,0.12); }
+    .rx-options__col--blue .rx-options__heading-icon svg { stroke: #3B82F6; }
+    .rx-options__col--blue .rx-options__heading { color: var(--blue); border-bottom-color: rgba(59,130,246,0.2); }
+    .rx-options__col--amber .rx-options__heading-icon  { background: rgba(232,146,58,0.12); }
+    .rx-options__col--amber .rx-options__heading-icon svg { stroke: #E8923A; }
+    .rx-options__col--amber .rx-options__heading { color: var(--amber); border-bottom-color: rgba(232,146,58,0.2); }
+    .rx-options__col--teal .rx-options__heading-icon   { background: rgba(20,184,166,0.12); }
+    .rx-options__col--teal .rx-options__heading-icon svg { stroke: #14B8A6; }
+    .rx-options__col--teal .rx-options__heading { color: #0D9488; border-bottom-color: rgba(20,184,166,0.2); }
+    .rx-options__tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .rx-options__tag {
+      font-family: var(--font-c); font-size: 0.8125rem; font-weight: 600;
+      letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-body);
+      background: var(--surface); padding: 0.3rem 0.7rem; border-radius: 100px;
+      border: 1px solid var(--border);
+      transition: all 0.2s var(--ease-out);
+    }
+    .rx-options__tag:hover { border-color: var(--blue); color: var(--blue); }
+    .rx-options__count {
+      font-family: var(--font-c); font-size: 0.75rem; font-weight: 700;
+      color: var(--text-muted); margin-left: auto; letter-spacing: 0.05em;
+    }
+    @media (max-width: 900px) { .rx-options__grid { grid-template-columns: 1fr; } }
+
+    /* ============================================================
+       TECHNOLOGY — 4-card grid
+    ============================================================ */
+    .technology { padding: 6rem 0; background: var(--bg); }
+    .tech-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+    .tech-grid__card {
+      display: flex; flex-direction: column; gap: 1rem;
+      padding: 2rem; background: var(--surface);
+      border: 1px solid var(--border); border-radius: var(--r-lg);
+      box-shadow: var(--card-shadow);
+      transition: transform 0.3s var(--ease-out), box-shadow 0.3s;
+    }
+    .tech-grid__card:hover { transform: translateY(-3px); box-shadow: var(--card-shadow-lg); }
+    .tech-grid__card:hover .tech-grid__title { color: var(--blue); }
+    .tech-grid__icon {
+      width: 48px; height: 48px; display: flex; align-items: center;
+      justify-content: center; background: var(--blue-10);
+      border-radius: 12px; border: 1px solid var(--blue-22); flex-shrink: 0;
+    }
+    .tech-grid__icon svg { width: 22px; height: 22px; stroke: var(--blue); }
+    .tech-grid__title {
+      font-family: var(--font-d); font-size: 1.25rem;
+      font-weight: 300; font-style: italic;
+      color: var(--text); line-height: 1.2; transition: color 0.3s;
+    }
+    .tech-grid__desc { font-size: 0.9375rem; color: var(--text-body); line-height: 1.68; }
+    .tech-grid__tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: auto; padding-top: 0.5rem; }
+    .tech-grid__tag {
+      font-family: var(--font-c); font-size: 0.8125rem; font-weight: 600;
+      letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-body);
+      background: var(--bg-2); padding: 0.3rem 0.7rem; border-radius: 100px;
+      border: 1px solid var(--border);
+    }
+    @media (max-width: 768px) { .tech-grid { grid-template-columns: 1fr; } }
+
+    /* ============================================================
+       TEAM
+    ============================================================ */
+    .team { padding: 6rem 0; background: var(--bg-2); }
+    .team__grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 1.5rem; align-items: start; }
+    .team-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); overflow: hidden;
+      transition: transform 0.3s var(--ease-out), box-shadow 0.3s;
+      box-shadow: var(--card-shadow);
+    }
+    .team-card:hover { transform: translateY(-4px); box-shadow: var(--card-shadow-lg); }
+    .team-card__avatar { aspect-ratio: 4/3; overflow: hidden; background: var(--bg-2); }
+    .team-card__avatar img { filter: none; transition: filter 0.4s; }
+    .team-card:hover .team-card__avatar img { filter: brightness(1.05); }
+    .team-card--founders .team-card__founders { display: grid; grid-template-columns: 1fr 1fr; aspect-ratio: 4/3; background: var(--bg-2); }
+    .team-card__founder-wrap { position: relative; overflow: hidden; }
+    .team-card__founder-photo { height: 100%; overflow: hidden; }
+    .team-card__founder-photo img { filter: none; transition: filter 0.4s; }
+    .team-card__founder-wrap:hover .team-card__founder-photo img { filter: brightness(1.05); }
+    .team-card__founder-name {
+      position: absolute; bottom: 0.5rem; left: 50%; transform: translateX(-50%);
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: #fff;
+      background: rgba(17,24,39,0.7); padding: 0.25rem 0.7rem;
+      border-radius: 100px; white-space: nowrap; backdrop-filter: blur(4px);
+    }
+    .team-card__info { padding: 1.75rem; }
+    .team-card__info h3 { font-family: var(--font-d); font-size: 1.25rem; font-weight: 300; color: var(--text); margin-bottom: 0.25rem; }
+    .team-card__role {
+      display: inline-block; font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue); margin-bottom: 0.6rem;
+    }
+    .team-card__info p { font-size: 0.9375rem; color: var(--text-body); line-height: 1.65; }
+    @media (max-width: 900px) { .team__grid { grid-template-columns: 1fr 1fr; } .team-card--founders { grid-column: 1 / -1; } }
+    @media (max-width: 600px) { .team__grid { grid-template-columns: 1fr; } .team-card--founders { grid-column: unset; } }
+
+    /* ============================================================
+       CTA BANNER — Blue gradient
+    ============================================================ */
+    .cta-banner { padding: 6rem 0; background: linear-gradient(135deg, #1E3A8A 0%, var(--blue) 50%, #3B82F6 100%); position: relative; overflow: hidden; }
+    .cta-banner::before { display: none; }
+    .cta-banner::after { display: none; }
+    .cta-banner__inner { position: relative; z-index: 1; text-align: center; max-width: 640px; margin: 0 auto; }
+    .cta-banner__inner h2 {
+      font-family: var(--font-d); font-weight: 300; font-style: italic;
+      font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05;
+      color: #fff; margin-bottom: 1rem; letter-spacing: -0.025em;
+    }
+    .cta-banner__inner p { font-size: 1.0625rem; color: rgba(255,255,255,0.75); line-height: 1.65; margin-bottom: 2.25rem; }
+
+    /* ============================================================
+       TESTIMONIALS — Left blue accent border
+    ============================================================ */
+    .testimonials { padding: 6rem 0; background: var(--bg); }
+    .testimonials__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .testimonial-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-left: 3px solid var(--blue);
+      border-radius: var(--r-lg); padding: 2rem 1.75rem;
+      box-shadow: var(--card-shadow);
+      transition: transform 0.3s var(--ease-out), box-shadow 0.3s;
+      display: flex; flex-direction: column;
+    }
+    .testimonial-card:hover { transform: translateY(-3px); box-shadow: var(--card-shadow-lg); }
+    .testimonial-card__stars { display: flex; gap: 3px; margin-bottom: 1.25rem; }
+    .testimonial-card__stars svg { width: 18px; height: 18px; fill: var(--amber); stroke: none; }
+    .testimonial-card__quote {
+      font-family: var(--font-d); font-size: 1.0625rem; font-style: italic; font-weight: 300;
+      color: var(--text); line-height: 1.6; margin-bottom: 1.5rem; flex: 1;
+    }
+    .testimonial-card__author { display: flex; align-items: center; gap: 0.875rem; }
+    .testimonial-card__avatar {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+      background: var(--blue-10); border: 2px solid var(--blue-22);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-b); font-size: 0.875rem; font-weight: 600; color: var(--blue);
+    }
+    .testimonial-card__name {
+      font-family: var(--font-b); font-size: 0.9375rem; font-weight: 600;
+      color: var(--text); line-height: 1.2;
+    }
+    .testimonial-card__role {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+    }
+    @media (max-width: 900px) { .testimonials__grid { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; } }
+
+    /* ============================================================
+       CONTACT
+    ============================================================ */
+    .contact { padding: 6rem 0; background: var(--bg-2); }
+    .contact__layout { display: grid; grid-template-columns: 1fr 1.25fr; gap: 5rem; align-items: start; }
+    .contact__info p { font-size: 1rem; color: var(--text-body); line-height: 1.72; margin-bottom: 2rem; }
+    .contact__details { display: flex; flex-direction: column; gap: 1.25rem; }
+    .contact__detail { display: flex; align-items: flex-start; gap: 1rem; }
+    .contact__detail-icon {
+      width: 42px; height: 42px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+      background: var(--blue-10); border-radius: 10px; border: 1px solid var(--blue-22);
+    }
+    .contact__detail-icon svg { width: 18px; height: 18px; stroke: var(--blue); }
+    .contact__detail strong {
+      display: block; font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue); margin-bottom: 0.2rem;
+    }
+    .contact__detail span { font-size: 0.9375rem; color: var(--text-body); line-height: 1.5; }
+    .contact__detail a { color: var(--text-body); }
+    .contact__detail a:hover { color: var(--blue); }
+    .contact__form { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 2.5rem; box-shadow: var(--card-shadow-lg); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+    .form-group { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 1rem; }
+    .form-group:last-of-type { margin-bottom: 1.25rem; }
+    .form-group label {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-body);
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      font-family: var(--font-b); font-size: 1rem; color: var(--text);
+      background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: var(--r); padding: 0.7rem 1rem; width: 100%;
+      outline: none; transition: border-color 0.22s, box-shadow 0.22s;
+      appearance: none; -webkit-appearance: none;
+    }
+    .form-group select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(17,24,39,0.35)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 1rem center; background-color: var(--bg-2);
+      padding-right: 2.5rem; cursor: pointer;
+    }
+    .form-group input::placeholder,
+    .form-group textarea::placeholder { color: var(--text-muted); }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+    .form-group textarea { resize: vertical; min-height: 100px; }
+    .form-group select option { background: var(--surface); }
+    .form-note {
+      font-family: var(--font-b); font-size: 0.875rem; font-weight: 400;
+      color: var(--text-muted); text-align: center; margin-top: 0.75rem;
+    }
+    @media (max-width: 900px) { .contact__layout { grid-template-columns: 1fr; gap: 3rem; } .form-row { grid-template-columns: 1fr; } }
+
+    /* ============================================================
+       NEWS & EVENTS
+    ============================================================ */
+    .news { padding: 6rem 0; background: var(--bg-2); }
+    .news__layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+    .news__events { display: flex; flex-direction: column; gap: 1.5rem; }
+    .news__event-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg);
+      overflow: hidden; box-shadow: var(--card-shadow);
+      transition: transform 0.3s var(--ease-out), box-shadow 0.3s;
+    }
+    .news__event-card:hover { transform: translateY(-3px); box-shadow: var(--card-shadow-lg); }
+    .news__event-top {
+      display: flex; gap: 1.25rem; padding: 1.75rem 1.75rem 0;
+    }
+    .news__event-date {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      min-width: 64px; height: 64px; border-radius: var(--r);
+      background: var(--blue); color: #fff; flex-shrink: 0;
+    }
+    .news__event-month {
+      font-family: var(--font-c); font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase; line-height: 1;
+    }
+    .news__event-day {
+      font-family: var(--font-d); font-size: 1.625rem; font-weight: 300; line-height: 1.1;
+    }
+    .news__event-info h3 {
+      font-family: var(--font-d); font-size: 1.25rem; font-weight: 300; font-style: italic;
+      color: var(--text); margin-bottom: 0.25rem; line-height: 1.25;
+    }
+    .news__event-meta {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+    }
+    .news__event-meta svg { width: 14px; height: 14px; stroke: var(--blue); flex-shrink: 0; }
+    .news__event-body {
+      padding: 1rem 1.75rem 1.75rem;
+    }
+    .news__event-body p {
+      font-size: 0.9375rem; color: var(--text-body); line-height: 1.65; margin-bottom: 1.25rem;
+    }
+    .news__event-tag {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-family: var(--font-c); font-size: 0.8125rem; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      color: var(--amber); background: var(--amber-10);
+      padding: 0.3rem 0.75rem; border-radius: 100px; border: 1px solid var(--amber-22);
+      margin-bottom: 1rem;
+    }
+    .news__event-tag svg { width: 12px; height: 12px; stroke: var(--amber); }
+    .news__feed {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg);
+      overflow: hidden; box-shadow: var(--card-shadow); min-height: 500px;
+    }
+    .news__feed-header {
+      display: flex; align-items: center; gap: 0.65rem;
+      padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); background: var(--bg-2);
+    }
+    .news__feed-header svg { width: 18px; height: 18px; flex-shrink: 0; }
+    .news__feed-header span {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted);
+    }
+    .news__feed-body { padding: 0; overflow: hidden; height: 600px; position: relative; }
+    .news__feed-body iframe { width: 100% !important; height: 600px; display: block; overflow: hidden; pointer-events: auto; }
+    @media (max-width: 900px) { .news__layout { grid-template-columns: 1fr; } }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .footer { background: var(--footer-bg); padding: 4.5rem 0 2rem; position: relative; color: rgba(255,255,255,0.85); }
+    .footer::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(to right, transparent, var(--blue-dk) 20%, var(--blue) 50%, var(--blue-dk) 80%, transparent);
+    }
+    .footer__top {
+      display: grid; grid-template-columns: 1.4fr 2fr;
+      gap: 4rem; padding-bottom: 3rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 1.75rem;
+    }
+    .footer__brand-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; }
+    .footer__brand-logo .nav__logo-img { height: 52px; filter: brightness(0) invert(1); opacity: 0.75; }
+    .footer__brand p { font-size: 0.9375rem; color: rgba(255,255,255,0.4); line-height: 1.65; max-width: 28ch; }
+    .footer__nav { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+    .footer__col h4 {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue-lt); margin-bottom: 1rem;
+    }
+    .footer__col ul { display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer__col li a,
+    .footer__col li { font-size: 0.9375rem; color: rgba(255,255,255,0.4); transition: color 0.2s; line-height: 1.55; }
+    .footer__col li a:hover { color: rgba(255,255,255,0.8); }
+    .footer__bottom {
+      display: flex; justify-content: space-between; align-items: center;
+      font-family: var(--font-b); font-size: 0.875rem; font-weight: 400;
+      color: rgba(255,255,255,0.3);
+    }
+    .footer__tagline {
+      font-family: var(--font-d); font-style: italic; font-size: 0.9375rem;
+      color: rgba(255,255,255,0.25);
+    }
+    @media (max-width: 900px) { .footer__top { grid-template-columns: 1fr; gap: 2.5rem; } .footer__nav { grid-template-columns: 1fr 1fr; } }
+    /* ============================================================
+       PROCESS — Clean card steps with blue circles
+    ============================================================ */
+    .process { padding: 6rem 0; background: var(--bg); }
+    .process__grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;
+      position: relative; margin-top: 1rem;
+    }
+    .process__step {
+      text-align: center; position: relative;
+      border-radius: var(--r-lg); overflow: hidden;
+      background: var(--surface); border: 1px solid var(--border);
+      box-shadow: var(--card-shadow);
+      transition: transform 0.3s var(--ease-out), box-shadow 0.3s;
+      display: flex; flex-direction: column;
+    }
+    .process__step:hover { transform: translateY(-3px); box-shadow: var(--card-shadow-lg); }
+    .process__step-img {
+      width: 100%; aspect-ratio: 4/3; overflow: hidden; position: relative;
+    }
+    .process__step-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.4s var(--ease-out);
+    }
+    .process__step:hover .process__step-img img { transform: scale(1.04); }
+    .process__step-img--placeholder {
+      width: 100%; aspect-ratio: 4/3; overflow: hidden; position: relative;
+      background: linear-gradient(135deg, var(--blue-10) 0%, #e8edf4 100%);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .process__step-img--placeholder svg {
+      width: 48px; height: 48px; stroke: var(--blue); opacity: 0.4;
+    }
+    .process__step-body { padding: 1.5rem 1.25rem; flex: 1; }
+    .process__step-label {
+      font-family: var(--font-c); font-size: 0.875rem; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue);
+      margin-bottom: 0.5rem;
+    }
+    .process__step h4 {
+      font-family: var(--font-d); font-size: 1.25rem; font-weight: 300; font-style: italic;
+      color: var(--text); margin-bottom: 0.5rem;
+    }
+    .process__step p {
+      font-size: 0.9375rem; color: var(--text-body); line-height: 1.65;
+      max-width: 30ch; margin: 0 auto;
+    }
+    @media (max-width: 768px) {
+      .process__grid { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    }
+    @media (max-width: 480px) { .process__grid { grid-template-columns: 1fr; gap: 1.5rem; } }
+
+    @media (max-width: 480px) {
+      .container { padding: 0 1.25rem; }
+      .values, .about, .products, .team, .contact, .technology, .cta-banner, .process, .testimonials { padding: 4rem 0; }
+      .footer { padding: 3rem 0 1.5rem; }
+      .footer__nav { grid-template-columns: 1fr; }
+      .footer__bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
+    }
+    /* ── Skip to content ── */
+    .skip-link {
+      position: absolute; top: -100%; left: 50%; transform: translateX(-50%);
+      background: var(--blue); color: #fff; padding: 0.5rem 1.5rem;
+      border-radius: 0 0 var(--r) var(--r); font-family: var(--font-b);
+      font-weight: 600; font-size: 0.875rem; z-index: 9999;
+      transition: top 0.2s;
+    }
+    .skip-link:focus { top: 0; }
+  </style>
+</head>
+<body>
+
+  <a href="#home" class="skip-link">Skip to content</a>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <img src="global-logo-big.png" alt="Global Orthotics Inc." class="nav__logo-img" />
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg id="navHamburger" class="nav__hamburger" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path class="nav__ham-top" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"/>
+          <path d="M7 16 27 16"/>
+        </svg>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact" class="nav__cta">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__video" aria-hidden="true">
+      <video autoplay muted loop playsinline poster="images/Gemini_Generated_Image_vthpovthpovthpov.png">
+        <source src="background.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero__grid"     aria-hidden="true"></div>
+    <div class="hero__glow"     aria-hidden="true"></div>
+    <div class="hero__glow-2"   aria-hidden="true"></div>
+
+    <div class="hero__layout">
+      <div class="hero__content">
+        <a href="#technology" class="hero__announce anim-badge">
+          <div class="hero__announce-pulse"></div>
+          <span>Now offering 3D printed orthotics</span>
+          <svg class="hero__announce-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+        <h1 class="hero__headline anim-h1">
+          Your Prescription,<br><span class="hero__accent">Our Precision.</span>
+        </h1>
+
+        <p class="hero__sub anim-sub">
+          What the clinician designs is exactly what the patient receives. Every time.
+        </p>
+
+        <div class="hero__actions anim-actions">
+          <a href="#contact" class="btn btn--primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.61 4.38 2 2 0 0 1 3.58 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            Book a Consultation
+          </a>
+          <a href="#products" class="btn btn--ghost">
+            Explore Products
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero__visual anim-preview">
+        <div class="hero__visual-img">
+          <img src="images/Gemini_Generated_Image_7vfb387vfb387vfb.png" alt="Precision-manufactured orthotic device" />
+        </div>
+        <div class="hero__pills hero__pills--center">
+          <a href="#products" class="hero__pill" data-tab="orthotics">Orthotics</a>
+          <a href="#products" class="hero__pill" data-tab="braces">Braces</a>
+          <a href="#products" class="hero__pill" data-tab="hosiery">Hosiery</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+
+    <div class="hero__stats anim-stats">
+      <div class="hero__stat">
+        <div class="hero__stat-num">25<em>+</em></div>
+        <div class="hero__stat-label">Years of precision manufacturing</div>
+      </div>
+      <div class="hero__stat">
+        <div class="hero__stat-num">±0.1<em>mm</em></div>
+        <div class="hero__stat-label">Dimensional accuracy</div>
+      </div>
+      <div class="hero__stat">
+        <div class="hero__stat-num">100<em>%</em></div>
+        <div class="hero__stat-label">Digital end-to-end</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logo Cloud -->
+  <section class="logo-cloud" aria-label="Trusted by medical professionals">
+    <div class="logo-cloud__header">
+      Trusted by <span>medical professionals</span> across Canada
+    </div>
+    <div class="logo-cloud__wrapper">
+      <div class="logo-cloud__track">
+        <span class="logo-cloud__item">Pedorthic Association of Canada</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item">Ontario Society of Chiropodists</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item">Canadian Podiatric Medical Association</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item">College of Chiropodists of Ontario</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item">Orthotics Canada</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item">Canadian Academy of Sport Medicine</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item">Foot Health Canada</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item" aria-hidden="true">Pedorthic Association of Canada</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item" aria-hidden="true">Ontario Society of Chiropodists</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item" aria-hidden="true">Canadian Podiatric Medical Association</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item" aria-hidden="true">College of Chiropodists of Ontario</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item" aria-hidden="true">Orthotics Canada</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item" aria-hidden="true">Canadian Academy of Sport Medicine</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+        <span class="logo-cloud__item" aria-hidden="true">Foot Health Canada</span>
+        <span class="logo-cloud__sep" aria-hidden="true">·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process — Scan > Design > Manufacture > Deliver -->
+  <section class="process">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-label">How It Works</div>
+        <h2 class="section-title">From Scan to <em>Finished Device</em></h2>
+        <p class="section-sub">Our digital workflow streamlines the path from clinical prescription to finished device — with consistency at every step.</p>
+      </div>
+      <div class="process__grid">
+        <div class="process__step" data-animate>
+          <div class="process__step-img">
+            <img src="images/steps/Gemini_Generated_Image_ybgcuybgcuybgcuy.png" alt="Clinician scanning a patient's foot" loading="lazy" />
+          </div>
+          <div class="process__step-body">
+            <div class="process__step-label">Step 01</div>
+            <h4>Scan</h4>
+            <p>Using the iPad's built-in camera or an attached Structure Sensor, precise foot geometry is captured in seconds — no plaster, no mess.</p>
+          </div>
+        </div>
+        <div class="process__step" data-animate>
+          <div class="process__step-img">
+            <img src="images/steps/Gemini_Generated_Image_hhk7r4hhk7r4hhk7.png" alt="Digital orthotic design on screen" loading="lazy" />
+          </div>
+          <div class="process__step-body">
+            <div class="process__step-label">Step 02</div>
+            <h4>Design</h4>
+            <p>The digital prescription defines every parameter — arch geometry, heel cup depth, posting angles — with no interpretation required.</p>
+          </div>
+        </div>
+        <div class="process__step" data-animate>
+          <div class="process__step-img">
+            <img src="images/steps/Gemini_Generated_Image_de6sbpde6sbpde6s.png" alt="3D printing orthotic shell" loading="lazy" />
+          </div>
+          <div class="process__step-body">
+            <div class="process__step-label">Step 03</div>
+            <h4>Manufacture</h4>
+            <p>Industrial 3D printing builds the shell layer by layer, using only the material the device requires — precise, consistent, zero waste.</p>
+          </div>
+        </div>
+        <div class="process__step" data-animate>
+          <div class="process__step-img">
+            <img src="images/steps/Gemini_Generated_Image_z13fddz13fddz13f.png" alt="Finished orthotics ready for delivery" loading="lazy" />
+          </div>
+          <div class="process__step-body">
+            <div class="process__step-label">Step 04</div>
+            <h4>Deliver</h4>
+            <p>3D printing means no backlog and no bottlenecks — quality-verified devices shipped to your practice with consistently fast turnaround times.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values — editorial horizontal-rule format -->
+  <section class="values">
+    <div class="container">
+      <div class="values__header">
+        <div class="section-label">Why Both Methods Matter</div>
+        <h2 class="section-title">The right tool for <em>every patient</em></h2>
+      </div>
+      <div class="values__list">
+        <div class="values__item" data-animate>
+          <img class="values__item-img" src="images/Gemini_Generated_Image_3xhoe03xhoe03xho.png" alt="Sub-millimeter accuracy with 3D printing" loading="lazy" />
+          <div class="values__item-content">
+            <h3 class="values__item-title">Sub-millimeter Accuracy with 3D Printing</h3>
+            <p class="values__item-desc">Our 3D printing capability builds orthotic shells layer by layer with sub-millimeter precision. For cases where digital reproducibility and zonal stiffness control matter most, it's a powerful addition to our traditional manufacturing expertise.</p>
+          </div>
+        </div>
+        <div class="values__item" data-animate>
+          <img class="values__item-img" src="images/Gemini_Generated_Image_kzgs8zkzgs8zkzgs.png" alt="Digital reproducibility" loading="lazy" />
+          <div class="values__item-content">
+            <h3 class="values__item-title">Digital Reproducibility</h3>
+            <p class="values__item-desc">With 3D printed devices, the original digital file is stored permanently. Replacements and duplicates are exact reprints — whether it's six months or six years later. For traditional devices, our experienced technicians deliver the same consistency they've been trusted for over 25 years.</p>
+          </div>
+        </div>
+        <div class="values__item" data-animate>
+          <img class="values__item-img" src="images/Gemini_Generated_Image_cg8xsacg8xsacg8x.png" alt="Traditional craftsmanship" loading="lazy" />
+          <div class="values__item-content">
+            <h3 class="values__item-title">Traditional Craftsmanship, Proven Results</h3>
+            <p class="values__item-desc">Our traditional manufacturing methods have served practitioners for over 25 years — and they remain a core part of what we offer. Different patients and clinical needs call for different approaches. The best labs give you the choice, not just one option.</p>
+          </div>
+        </div>
+        <div class="values__item" data-animate>
+          <img class="values__item-img" src="images/placeholder-quality.png" alt="Quality-first approach" loading="lazy" />
+          <div class="values__item-content">
+            <h3 class="values__item-title">Quality-First, Not First-to-Market</h3>
+            <p class="values__item-desc">We spent over a year evaluating technology, testing workflows, and perfecting our design recipe before offering 3D printed orthotics. We waited until we could do it right — the same standard our practitioners have always expected from us.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__layout">
+        <div class="about__visual" data-animate>
+          <div class="about__img-wrap">
+            <video controls preload="metadata" poster="https://img.youtube.com/vi/fdlXHdLHefg/maxresdefault.jpg">
+              <source src="Video/GlobalAboutVideo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="about__card about__card--main">
+            <div class="about__card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+              </svg>
+            </div>
+            <p class="about__quote">"The device a recreational runner receives should be built with the same precision as one made for a professional athlete."</p>
+            <span class="about__quote-attr">— Sonia &amp; Arturo, Co-Founders</span>
+          </div>
+          <div class="about__card about__card--stat">
+            <span class="about__card-num">25+</span>
+            <span class="about__card-desc">Years of manufacturing excellence</span>
+          </div>
+          <div class="about__card about__card--badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>Canadian Certified Lab</span>
+          </div>
+        </div>
+        <div class="about__text" data-animate>
+          <div class="section-label">About Us</div>
+          <h2 class="section-title">25 Years of Excellence, <em>Now Expanded</em></h2>
+          <p>Global Orthotics Inc. is a Canadian orthotic lab built on one principle: the device should match the patient's needs exactly. For over 25 years, our team has delivered that standard through traditional manufacturing. Now, we've added precision 3D printing — not as a replacement, but as a powerful expansion of what we can offer.</p>
+          <p>This is not a pivot. It is an evolution. We spent over a year investigating technology, testing workflows, and perfecting a design recipe before bringing 3D printing to our practitioners. The same quality-first approach that built our reputation is exactly what guided this expansion.</p>
+          <ul class="about__list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Traditional and 3D printed orthotics — the right method for every patient</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>3D scanning, foam impression, and plaster casting all accepted</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>App-based ordering — scan, prescribe, and track from one place</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>A Canadian lab with the personal service practitioners trust</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Work With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-label">Our Products</div>
+        <h2 class="section-title">Built for the <em>Clinical Outcome</em></h2>
+        <p class="section-sub">Different patients need different devices — and different manufacturing methods. We offer both traditional and 3D printed options so you can choose the right approach for every case.</p>
+      </div>
+      <div class="products__tabs">
+        <button class="products__tab products__tab--active" data-tab="orthotics">Orthotics</button>
+        <button class="products__tab" data-tab="hosiery">Hosiery</button>
+        <button class="products__tab" data-tab="braces">Braces</button>
+      </div>
+
+      <div class="products__panel products__panel--active" id="tab-orthotics">
+        <div class="products__grid">
+          <div class="product-card" data-animate>
+            <div class="product-card__photo">
+              <img src="images/Gemini_Generated_Image_vfljbuvfljbuvflj.png" alt="Dress Orthotics" loading="lazy" />
+              <div class="product-card__badge product-card__badge--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div>
+            </div>
+            <div class="product-card__body">
+              <h3>Dress Orthotics</h3>
+              <p>Slim footwear demands a precise, low-profile shell. Available in both traditional and 3D printed options, our dress orthotics are built to fit the shoe they were designed for — reliably and comfortably.</p>
+              <ul class="product-card__features"><li>Vinyl top cover</li><li>2mm functional shell</li><li>Multiple shell materials</li></ul>
+            </div>
+          </div>
+          <div class="product-card" data-animate>
+            <div class="product-card__photo">
+              <img src="images/Gemini_Generated_Image_vthpovthpovthpov.png" alt="Sports Orthotics" loading="lazy" />
+              <div class="product-card__badge product-card__badge--teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            </div>
+            <div class="product-card__body">
+              <h3>Sports Orthotics</h3>
+              <p>Performance patients demand results they can feel on the move. Built to correct imbalance, restore function, and support active lifestyles — with the durability and precision your athletes expect.</p>
+              <ul class="product-card__features"><li>Mesh / ETC top cover</li><li>Poron midlayer</li><li>Extrinsic rearfoot post</li></ul>
+            </div>
+          </div>
+          <div class="product-card" data-animate>
+            <div class="product-card__photo">
+              <img src="images/Gemini_Generated_Image_ozv0y9ozv0y9ozv0.png" alt="Diabetic Orthotics" loading="lazy" />
+              <div class="product-card__badge product-card__badge--purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            </div>
+            <div class="product-card__body">
+              <h3>Diabetic Orthotics</h3>
+              <p>For diabetic patients, pressure distribution and fit are clinical priorities. Our accommodative options — now available in 3D printed construction — deliver the precision and consistency these patients require.</p>
+              <ul class="product-card__features"><li>Plastazote top cover</li><li>1mm soft shell</li><li>Pressure-relieving arch fill</li></ul>
+            </div>
+          </div>
+          <div class="product-card" data-animate>
+            <div class="product-card__photo">
+              <img src="images/Gemini_Generated_Image_93psc893psc893ps.png" alt="EVA Orthotics" loading="lazy" />
+              <div class="product-card__badge product-card__badge--orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg></div>
+            </div>
+            <div class="product-card__body">
+              <h3>EVA Orthotics</h3>
+              <p>Ethylene Vinyl Acetate construction designed to cushion and offload pressure points. A comfortable, precisely built device that works across the patient's everyday footwear — improving daily wear rate and clinical outcomes.</p>
+              <ul class="product-card__features"><li>EVA foam construction</li><li>Cushioning support</li><li>Pressure offloading</li></ul>
+            </div>
+          </div>
+          <div class="product-card" data-animate>
+            <div class="product-card__photo">
+              <img src="images/Gemini_Generated_Image_qolmhdqolmhdqolm.png" alt="Paediatric Orthotics" loading="lazy" />
+              <div class="product-card__badge product-card__badge--green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+            </div>
+            <div class="product-card__body">
+              <h3>Paediatric Orthotics</h3>
+              <p>With children, the timing and accuracy of foot correction directly affects development. Our paediatric orthotics are built with the care and precision that growing feet demand — in both traditional and 3D printed options.</p>
+              <ul class="product-card__features"><li>Alignment correction</li><li>Growth-friendly design</li><li>Activity support</li></ul>
+            </div>
+          </div>
+          <div class="product-card" data-animate>
+            <div class="product-card__photo">
+              <img src="images/Gemini_Generated_Image_99fzzw99fzzw99fz.png" alt="Casual Orthotics" loading="lazy" />
+              <div class="product-card__badge product-card__badge--rose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM12 8v8M8 12h8"/></svg></div>
+            </div>
+            <div class="product-card__body">
+              <h3>Casual Orthotics</h3>
+              <p>An orthotic that fits more shoes gets worn more often. Slim and precisely built for walking, hiking, and everyday use — designed to move between footwear without compromising comfort or correction.</p>
+              <ul class="product-card__features"><li>Slim profile</li><li>All-day comfort</li><li>Lace-up compatible</li></ul>
+            </div>
+          </div>
+          <div class="product-card" data-animate>
+            <div class="product-card__photo">
+              <img src="images/ebabe0fa-b3df-484d-9a51-7aa2477dbcc0.png" alt="Prescriptive 3DP Orthotic" loading="lazy" />
+              <div class="product-card__badge product-card__badge--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></div>
+            </div>
+            <div class="product-card__body">
+              <h3>Prescriptive 3DP Orthotic</h3>
+              <p>Precision engineered and clinically proven. Repeatable accuracy eliminates technician variability, zonal stiffness control lets you design around each patient's specific needs, and 3D printed shells are stronger without added bulk.</p>
+              <ul class="product-card__features"><li>3D printed nylon shell</li><li>Zonal stiffness control</li><li>2–3 day turnaround</li></ul>
+            </div>
+          </div>
+          <div class="product-card" data-animate>
+            <div class="product-card__photo">
+              <img src="images/Gemini_Generated_Image_8xazr88xazr88xaz.png" alt="Accommodative 3DP Orthotic" loading="lazy" />
+              <div class="product-card__badge product-card__badge--sky"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            </div>
+            <div class="product-card__body">
+              <h3>Accommodative 3DP Orthotic</h3>
+              <p>The orthotic you always wanted to offer — now you can. 3D printing makes accommodative devices practical to produce at scale, with the same digital precision. Ideal for diabetic, elderly, and post-surgical patients.</p>
+              <ul class="product-card__features"><li>Soft pressure-relieving design</li><li>Digital reproducibility</li><li>Complex patient profiles</li></ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prescriptive Options -->
+        <div class="rx-options" data-animate>
+          <div class="rx-options__header">
+            <div class="section-label">Prescriptive Options</div>
+            <h3 class="section-title">Your Prescription, <em>Your Way</em></h3>
+            <p class="section-sub" style="margin:0 auto">Every device is built to your exact clinical specifications — choose from a wide range of posting, shell, and topcover options.</p>
+          </div>
+
+          <div class="rx-options__grid">
+            <!-- Posting & Accommodations -->
+            <div class="rx-options__col rx-options__col--blue">
+              <div class="rx-options__heading">
+                <div class="rx-options__heading-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m17 7-5-5-5 5"/><path d="m17 17-5 5-5-5"/></svg>
+                </div>
+                Posting &amp; Accommodations
+                <span class="rx-options__count">18</span>
+              </div>
+              <div class="rx-options__tags">
+                <span class="rx-options__tag">Extrinsic Rearfoot Post</span>
+                <span class="rx-options__tag">Extrinsic Footfoot Post</span>
+                <span class="rx-options__tag">Intrinsic Rearfoot Post</span>
+                <span class="rx-options__tag">Intrinsic Footfoot Post</span>
+                <span class="rx-options__tag">Heel Cushion</span>
+                <span class="rx-options__tag">Heel Spur Pad</span>
+                <span class="rx-options__tag">Met Pad</span>
+                <span class="rx-options__tag">Met Bar</span>
+                <span class="rx-options__tag">Neuroma Pad</span>
+                <span class="rx-options__tag">Scaphoid Pad</span>
+                <span class="rx-options__tag">1st Ray</span>
+                <span class="rx-options__tag">High Medial Flange</span>
+                <span class="rx-options__tag">Forefoot Pad Extension</span>
+                <span class="rx-options__tag">Mortons Extension</span>
+                <span class="rx-options__tag">Reverse Mortons Extension</span>
+                <span class="rx-options__tag">Toe Crest Pad</span>
+                <span class="rx-options__tag">Heel Cut-out</span>
+                <span class="rx-options__tag">Gate Plate</span>
+              </div>
+            </div>
+
+            <!-- Shell Types -->
+            <div class="rx-options__col rx-options__col--amber">
+              <div class="rx-options__heading">
+                <div class="rx-options__heading-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>
+                </div>
+                Shell Types
+                <span class="rx-options__count">10</span>
+              </div>
+              <div class="rx-options__tags">
+                <span class="rx-options__tag">3D Printed Nylon</span>
+                <span class="rx-options__tag">3D Printed TPU</span>
+                <span class="rx-options__tag">UCBL</span>
+                <span class="rx-options__tag">Black Carbon Flex</span>
+                <span class="rx-options__tag">Poly Pro</span>
+                <span class="rx-options__tag">Poly-Pro Natural</span>
+                <span class="rx-options__tag">Co-Poly</span>
+                <span class="rx-options__tag">EVA</span>
+                <span class="rx-options__tag">Subortulene</span>
+                <span class="rx-options__tag">XT Sprint</span>
+              </div>
+            </div>
+
+            <!-- Topcovers -->
+            <div class="rx-options__col rx-options__col--teal">
+              <div class="rx-options__heading">
+                <div class="rx-options__heading-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                </div>
+                Topcovers
+                <span class="rx-options__count">11</span>
+              </div>
+              <div class="rx-options__tags">
+                <span class="rx-options__tag">Vinyl</span>
+                <span class="rx-options__tag">Soft Vinyl</span>
+                <span class="rx-options__tag">Neoprene</span>
+                <span class="rx-options__tag">ETC</span>
+                <span class="rx-options__tag">Plastazote</span>
+                <span class="rx-options__tag">Microcell</span>
+                <span class="rx-options__tag">Perforated Nora</span>
+                <span class="rx-options__tag">Kids Colours</span>
+                <span class="rx-options__tag">Suede</span>
+                <span class="rx-options__tag">Bambollon</span>
+                <span class="rx-options__tag">Puff Impression</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="products__panel" id="tab-hosiery">
+        <div class="products__feature">
+          <div class="products__feature-text" data-animate>
+            <h3>Medical Hosiery</h3>
+            <p>Our therapeutic graduated compression stockings feature refined knitting technology for superior comfort and clinical effectiveness.</p>
+            <ul class="about__list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Graduated compression design</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Refined therapeutic knitting</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Multiple compression levels available</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Enhanced patient comfort and compliance</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Inquire About Hosiery</a>
+          </div>
+          <div class="products__feature-visual" data-animate>
+            <div class="product-img-grid">
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_layrgelayrgelayr.png" alt="Designer Art. 820B" loading="lazy" /><span>Designer · Art. 820B</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_kklzrmkklzrmkklz.png" alt="Cotton Art. 920" loading="lazy" /><span>Cotton · Art. 920</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_hbqxyihbqxyihbqx.png" alt="Microfiber Art. 870M" loading="lazy" /><span>Microfiber · Art. 870M</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_uocoj4uocoj4uoco.png" alt="Medicale Art. M2150" loading="lazy" /><span>Medicale · Art. M2150</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_1hcj1s1hcj1s1hcj.png" alt="Thigh-High Art. 1150" loading="lazy" /><span>Thigh-High · Art. 1150</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_i42s96i42s96i42s.png" alt="Knee-High Art. 280" loading="lazy" /><span>Knee-High · Art. 280</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_qaldslqaldslqald.png" alt="Men's Art. 720" loading="lazy" /><span>Men's · Art. 720</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_aokaexaokaexaoka.png" alt="Knee-High Art. 340" loading="lazy" /><span>Knee-High · Art. 340</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products__panel" id="tab-braces">
+        <div class="products__feature">
+          <div class="products__feature-text" data-animate>
+            <h3>Medical Braces</h3>
+            <p>Our medical braces offer back, lumbar, and knee support options designed for a wide range of conditions, each fitted for optimal patient outcomes.</p>
+            <ul class="about__list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Back and lumbar support solutions</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Knee braces for various conditions</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Condition-specific designs</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fitted for optimal patient outcomes</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Inquire About Braces</a>
+          </div>
+          <div class="products__feature-visual" data-animate>
+            <div class="product-img-grid">
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_bjl22sbjl22sbjl2.png" alt="Knee Brace" loading="lazy" /><span>Knee Support</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_znjf6znjf6znjf6z.png" alt="Knee Brace G2700" loading="lazy" /><span>G2700 Lateral</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_lpiuvclpiuvclpiu.png" alt="Back Support COR3200" loading="lazy" /><span>Back · COR3200</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_enccmnenccmnencc.png" alt="G2800 Brace" loading="lazy" /><span>G2800 Support</span></div>
+              <div class="product-img-item"><img src="images/Gemini_Generated_Image_5fbd3s5fbd3s5fbd.png" alt="Wrist Brace" loading="lazy" /><span>Wrist Support</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology -->
+  <section class="technology" id="technology">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-label">Technology &amp; Manufacturing</div>
+        <h2 class="section-title">The Tools, Products, and Processes Behind <em>Every Device</em></h2>
+        <p class="section-sub">A fully integrated ecosystem — from a modern scan-and-order app to industrial 3D printing — built to give practitioners more control and patients better outcomes.</p>
+      </div>
+      <div class="tech-grid">
+        <!-- Card 1: Global Scan & Order App -->
+        <div class="tech-grid__card" data-animate>
+          <div class="tech-grid__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <h3 class="tech-grid__title">Global Scan &amp; Order App</h3>
+          <p class="tech-grid__desc">A mobile-first app that covers the full workflow — capture patient pathology, scan feet using the iPad's built-in camera or an attached Structure Sensor, configure prescriptions with intuitive touch controls, submit orders, track status, and get support. Works for both traditional and 3D printed orthotic orders.</p>
+          <div class="tech-grid__tags">
+            <span class="tech-grid__tag">3D Scanning</span>
+            <span class="tech-grid__tag">Prescription Design</span>
+            <span class="tech-grid__tag">Order Tracking</span>
+            <span class="tech-grid__tag">Traditional &amp; 3D</span>
+          </div>
+        </div>
+        <!-- Card 2: 3D Printed Custom Orthotics -->
+        <div class="tech-grid__card" data-animate>
+          <div class="tech-grid__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4A2 2 0 0 1 2 16.76V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z"/><polyline points="2.32 6.16 12 11 21.68 6.16"/><line x1="12" y1="22.76" x2="12" y2="11"/></svg>
+          </div>
+          <h3 class="tech-grid__title">3D Printed Custom Orthotics</h3>
+          <p class="tech-grid__desc">Two new 3D printed products — the Prescriptive Functional orthotic for precision correction with zonal stiffness control, and the Accommodative orthotic for diabetic, elderly, and post-surgical patients. Both built with sub-millimeter accuracy and full digital reproducibility.</p>
+          <div class="tech-grid__tags">
+            <span class="tech-grid__tag">Prescriptive Functional</span>
+            <span class="tech-grid__tag">Accommodative</span>
+            <span class="tech-grid__tag">Zonal Stiffness</span>
+            <span class="tech-grid__tag">Digital Reproducibility</span>
+          </div>
+        </div>
+        <!-- Card 3: 100% Digital Workflow -->
+        <div class="tech-grid__card" data-animate>
+          <div class="tech-grid__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+          </div>
+          <h3 class="tech-grid__title">100% Digital Workflow</h3>
+          <p class="tech-grid__desc">From scan to finished device, the entire production chain operates digitally. No interpretation, no manual transcription, no variability between shifts. Digital files mean exact replacements months or years later, predictable turnaround, and scalable production.</p>
+          <div class="tech-grid__tags">
+            <span class="tech-grid__tag">End-to-End Digital</span>
+            <span class="tech-grid__tag">Predictable Turnaround</span>
+            <span class="tech-grid__tag">Exact Replacements</span>
+            <span class="tech-grid__tag">Scalable</span>
+          </div>
+        </div>
+        <!-- Card 4: Additive Manufacturing -->
+        <div class="tech-grid__card" data-animate>
+          <div class="tech-grid__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h3 class="tech-grid__title">Additive Manufacturing</h3>
+          <p class="tech-grid__desc">Industrial 3D printing using proven platforms — EOS, HP Multi Jet Fusion, and Mosaic technologies. PA12 Nylon powder for strong, slim functional shells. FFF TPU filament for soft, pressure-relieving accommodative devices. The right material and process for every clinical need.</p>
+          <div class="tech-grid__tags">
+            <span class="tech-grid__tag">PA12 Nylon</span>
+            <span class="tech-grid__tag">FFF TPU</span>
+            <span class="tech-grid__tag">EOS</span>
+            <span class="tech-grid__tag">HP MJF</span>
+            <span class="tech-grid__tag">Mosaic</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-label">Our Team</div>
+        <h2 class="section-title">The People Behind <em>Your Devices</em></h2>
+        <p class="section-sub">A team of practitioners and manufacturing experts who understand what clinicians need — because they are clinicians.</p>
+      </div>
+      <div class="team__grid">
+        <div class="team-card team-card--founders" data-animate>
+          <div class="team-card__founders">
+            <div class="team-card__founder-wrap">
+              <div class="team-card__founder-photo"><img src="https://globalorthoticsinc.com/wp-content/uploads/2024/04/IMG_8666-1.jpg" alt="Sonia Pereira" loading="lazy" /></div>
+              <span class="team-card__founder-name">Sonia</span>
+            </div>
+            <div class="team-card__founder-wrap">
+              <div class="team-card__founder-photo"><img src="https://globalorthoticsinc.com/wp-content/uploads/2024/04/IMG_4777.jpg" alt="Arturo Reyes" loading="lazy" /></div>
+              <span class="team-card__founder-name">Arturo</span>
+            </div>
+          </div>
+          <div class="team-card__info">
+            <h3>Sonia Pereira &amp; Arturo Reyes</h3>
+            <span class="team-card__role">Co-Founders</span>
+            <p>Over 25 years building Global Orthotics into Canada's trusted orthotic lab — where quality comes first, whether the device is handcrafted or 3D printed.</p>
+          </div>
+        </div>
+        <div class="team-card" data-animate>
+          <div class="team-card__avatar"><img src="https://globalorthoticsinc.com/wp-content/uploads/2024/04/dr-hartley-miltchin.jpeg" alt="Dr. Hartley Miltchin" loading="lazy" /></div>
+          <div class="team-card__info">
+            <h3>Dr. Hartley Miltchin</h3>
+            <span class="team-card__role">Podiatrist &amp; Professor</span>
+            <p>Specialist in minimally invasive foot and ankle procedures, combining academic excellence with clinical practice to advance patient care.</p>
+          </div>
+        </div>
+        <div class="team-card" data-animate>
+          <div class="team-card__avatar"><img src="https://globalorthoticsinc.com/wp-content/uploads/2024/04/PXL_20240417_203330733-scaled.jpg" alt="Cynthia Li" loading="lazy" /></div>
+          <div class="team-card__info">
+            <h3>Cynthia Li</h3>
+            <span class="team-card__role">Chiropodist</span>
+            <p>Board member of the Ontario Society of Chiropodists, bringing deep clinical knowledge and professional leadership to our team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-banner__inner" data-animate>
+        <h2>25 Years of Trust. A New Chapter of Precision.</h2>
+        <p>Traditional craftsmanship and 3D innovation, from a Canadian lab that knows your name. Ready to see what the right tool for every patient looks like?</p>
+        <a href="#contact" class="btn btn--white">Talk to Our Lab</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-label">What Practitioners Say</div>
+        <h2 class="section-title">Trusted by Clinics <em>Across Canada</em></h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-card__quote">"We switched to Global Orthotics last year and the difference in device consistency has been remarkable. Replacements match the originals exactly — our patients notice."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">DR</div>
+            <div>
+              <div class="testimonial-card__name">Dr. Rebecca Thornton</div>
+              <div class="testimonial-card__role">Chiropodist · Toronto, ON</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-card__quote">"The app-based prescription workflow cut our turnaround time in half. I submit a scan on Monday and have a finished device by Thursday. It's changed how we run the practice."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MK</div>
+            <div>
+              <div class="testimonial-card__name">Mark Kowalski, C.Ped</div>
+              <div class="testimonial-card__role">Pedorthist · Vancouver, BC</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-card__quote">"I've been fitting orthotics for 18 years. The dimensional accuracy from Global's 3D-printed shells is the best I've seen — especially for diabetic patients where precision really matters."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SN</div>
+            <div>
+              <div class="testimonial-card__name">Dr. Sarah Nguyen</div>
+              <div class="testimonial-card__role">Podiatrist · Calgary, AB</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News & Events -->
+  <section class="news" id="news">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-label">News &amp; Events</div>
+        <h2 class="section-title">What's Happening at <em>Global Orthotics</em></h2>
+        <p class="section-sub">Upcoming events for practitioners and the latest updates from our team.</p>
+      </div>
+      <div class="news__layout">
+        <div class="news__events" data-animate>
+          <div class="news__event-card">
+            <div class="news__event-top">
+              <div class="news__event-date">
+                <span class="news__event-month">May</span>
+                <span class="news__event-day">2026</span>
+              </div>
+              <div class="news__event-info">
+                <h3>Practitioner Luncheon Seminar</h3>
+                <div class="news__event-meta">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Toronto, ON
+                </div>
+              </div>
+            </div>
+            <div class="news__event-body">
+              <div class="news__event-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Seats Limited
+              </div>
+              <p>Join Sonia &amp; Arturo for an in-person introduction to Global's 3D printed orthotics. See the technology, handle the products, and learn how it fits your practice. Lunch provided — no obligation, just come and learn.</p>
+              <a href="#contact" class="btn btn--primary">Register Interest</a>
+            </div>
+          </div>
+        </div>
+        <div class="news__feed" data-animate>
+          <div class="news__feed-header">
+            <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Latest Updates</span>
+          </div>
+          <div class="news__feed-body">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fglobalorthotics.inc&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=false&hide_cover=true&show_facepile=false" width="500" height="600" style="border:none;width:100%;overflow:hidden;" scrolling="no" frameborder="0" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__layout">
+        <div class="contact__info" data-animate>
+          <div class="section-label">Contact Us</div>
+          <h2 class="section-title">Get in <em>Touch</em></h2>
+          <p>Whether you're a solo practitioner or a multi-location clinic, we work closely with you to find the right manufacturing approach for every patient. Traditional, 3D printed, or both — reach out and let's talk.</p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <div class="contact__detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div><strong>Address</strong><span>151 Nashdene Road, Unit 45<br />Toronto, Ontario, M1V 4C3</span></div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.61 4.38 2 2 0 0 1 3.58 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l1.98-1.98a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+              <div><strong>Phone</strong><span><a href="tel:+14162970550">+1 416-297-0550</a></span></div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+              <div><strong>Email</strong><span><a href="mailto:info@globalorthoticsinc.com">info@globalorthoticsinc.com</a></span></div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <div><strong>Hours</strong><span>Monday – Friday<br />9:00 AM – 5:00 PM</span></div>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form" data-animate id="contactForm">
+          <div class="form-row">
+            <div class="form-group"><label for="firstName">First Name</label><input type="text" id="firstName" name="firstName" placeholder="Jane" required /></div>
+            <div class="form-group"><label for="lastName">Last Name</label><input type="text" id="lastName" name="lastName" placeholder="Doe" required /></div>
+          </div>
+          <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="jane@clinic.com" required /></div>
+          <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="+1 (416) 000-0000" /></div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic</option>
+              <option>Custom Orthotics (Traditional)</option>
+              <option>3D Printed Orthotics</option>
+              <option>Medical Hosiery</option>
+              <option>Medical Braces</option>
+              <option>Global Scan &amp; Order App</option>
+              <option>Practitioner Partnership</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Tell us how we can help your practice..."></textarea></div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-note">We typically respond within one business day.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">
+            <img src="global-logo-big.png" alt="Global Orthotics Inc." class="nav__logo-img" />
+          </div>
+          <p>Canada's trusted orthotic lab — traditional craftsmanship and 3D precision for practitioners who demand quality.</p>
+        </div>
+        <div class="footer__nav">
+          <div class="footer__col">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#products">Orthotics</a></li>
+              <li><a href="#products">Medical Hosiery</a></li>
+              <li><a href="#products">Medical Braces</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#technology">Technology</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="tel:+14162970550">+1 416-297-0550</a></li>
+              <li><a href="mailto:info@globalorthoticsinc.com">info@globalorthoticsinc.com</a></li>
+              <li>151 Nashdene Rd, Unit 45<br />Toronto, ON M1V 4C3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Global Orthotics Inc. All rights reserved.</span>
+        <span class="footer__tagline">Your Prescription, Our Precision.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
